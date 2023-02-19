@@ -86,6 +86,7 @@ setTimeout(function () {
 }, 3000);
 
 // 新春灯笼 （ 需要时可取消注释 ）
+/*
    new_element=document.createElement("link");
    new_element.setAttribute("rel","stylesheet");
    new_element.setAttribute("type","text/css");
@@ -96,6 +97,7 @@ setTimeout(function () {
    new_element.setAttribute("type","text/javascript");
    new_element.setAttribute("src","./js/lantern.js");
    document.body.appendChild(new_element);
+*/
 
 //获取一言
 fetch('https://v1.hitokoto.cn?max_length=24')
